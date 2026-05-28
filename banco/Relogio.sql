@@ -68,12 +68,12 @@ CREATE TABLE alertas (
 );
 
 INSERT INTO usuarios (nome, idade, telefone, endereco) VALUES
-('João Silva', 72, '11999999999', 'Rua A, 123'),
-('Dona Maria', 80, '11977777777', 'Rua B, 456');
+('João Neto', 17, '11999999999', 'Rua A, 123'),
+('Nicolas Toledo', 67, '11977777777', 'Rua B, 456');
 
 INSERT INTO responsaveis (nome, telefone, email) VALUES
-('Carlos Silva', '11988888888', 'carlos@email.com'),
-('Ana Souza', '11966666666', 'ana@email.com');
+('Marine Moura', '11988888888', 'Marine@email.com'),
+('Hornet', '11966666666', 'Hornet@email.com');
 
 INSERT INTO usuario_responsavel (usuario_id, responsavel_id) VALUES
 (1,1),
