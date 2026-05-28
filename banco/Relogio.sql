@@ -10,6 +10,7 @@ CREATE TABLE usuarios (
     data_cadastro DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
+
 CREATE TABLE responsaveis (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100),
