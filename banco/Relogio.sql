@@ -36,6 +36,7 @@ CREATE TABLE medicoes (
     FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
 );
 
+
 CREATE TABLE configuracoes (
     id INT AUTO_INCREMENT PRIMARY KEY,
     usuario_id INT,
